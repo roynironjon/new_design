@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS || PAGE</title>
+    <!-- fontwesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- style css link -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/html.css">
+    <link rel="stylesheet" href="css/index-css.css">
+</head>
+<body>
+    <!-- <section class="top-header">
+    </section> -->
+    <section class="menubar">
+        <div class="container">
+            <div class="main-column">
+                <div class="logo-column">
+                    <a href="home.html">Nironjon <span>Roy</span></a>
+                </div>
+                <div class="menu-column">
+                    <nav>
+                        <ul>
+                            <li><a href="index-html.html">এইচটিএমএল</a></li>
+                            <li><a href="css.html">সিএসএস</a></li>
+                            <li><a href="bootstrap.html">বুটস্ট্র্যাপ</a></li>
+                            <li><a href="javascript.html">জাভাস্ক্রিপ্ট</a></li>
+                            <li><a href="jquery.html">জেকুয়েরি</a></li>
+                            <li><a href="php.html">পিএইচপি</a></li>
+                            <li><a href="#">ওওপি</a></li>
+                            <li><a href="#">ওয়ার্ডপ্রেস</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- header section end -->
+    <section class="html-banner-section">
+        <div class="container">
+            <div class="header">
+                <h1>CSS</h1>
+                <b>(<span class="text"></span>)</b>
+            </div>
+            <div class="html-main-column">
+                <div class="html-content">
+                    <h1>css</h1>
+                    <p>The language for styling web pages</p>
+                    <div class="btn">
+                        <a class="btn1" href="#">Learn css</a>
+                        <a class="btn2" href="#">Video tutorial</a>
+                        <a class="btn3" href="#">css Refarance</a>
+                    </div>
+                </div>
+                <div class="html-stucture">
+                    <img src="image/csscode.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--css-banner-section end-->
+    <button id="scrollBtn" onclick="scrollToTop()"><i class="fa-solid fa-angle-up"></i></button>
+    <!-- scroll btn end -->
+    <section class="html-details">
+        <div class="container">
+            <div class="main-details">
+                <div class="main-content">
+                    <h2>সিএসএস(CSS) :</h2>
+                    <p style="text-transform: none;">এইচটিএমল ডকুমেন্টের যেকোন এলিমেন্টকে স্টাইলিং বা একটা রুপ দিতে সিএসএস ব্যবহার হয়। একটা প্যারাগ্রাফ (p) বা হেডিং (h1) বা যেকোন এলিমেন্ট কে ধরুন রং করতে চান, ফন্ট বড় ছোট করতে হবে, অবস্থান এক দিক থেকে অন্যদিকে নিতে হবে, ব্যাকগ্রাউন্ড রং বদলাতে হবে এরুপ শত ধরনের স্টাইল পরিবর্তন সিএসএস দিয়ে করা হয়। বিশেষ করে লেআউট তৈরীর জন্য সিএসএস সবচেয়ে বেশি জরুরি।</p>
+                    <p class="pra2">বর্তমানে সিএসএস ৩ চলে এসেছে (এখনও কাজ চলছে)। এর আগের ভার্সন হল সিএসএস ২.১। তবে সিএসএস ৩ এখন অধিকাংশ ব্রাউজারে সাপোর্ট করে এবং CSS 3 ব্যবহার দিন দিন বেড়েই চলছে।</p>
+                </div>
+                <div class="img">
+                    <img src="image/css.jpg">
+                </div>
+            </div>
+            <div class="css-main-deatails-content">
+                <div class="html-work">
+                    <h4>CSS কি? What is CSS?</h4>
+                    <p>CSS যার অর্থ হলো Cascading Style Sheets CSS এবং এটি একটা design language। মানে website design সম্পর্কিত কাজ করার জন্য আমরা এই CSS ব্যবহার করে থাকি। এর মাধ্যমে আমরা আমাদের website এর কোন HTML document এর style নির্ধারণ করে থাকি। যেমন- কোন একটা বক্স দেখতে কেমন হবে, তার রং কি রকম হবে, এর দৈর্ঘ্য বা প্রস্থ কত হবে ইত্যাদি। এমনকি আমরা CSS এর মাধ্যমে বলে দেই যে যত প্রকার HTML tag রয়েছে তা আমাদের ওয়েবসাইটে কি রকম দেখাবে।
+                    আমরা যখন কোন ওয়েবসাইট তৈরী করি তখন প্রথমে markup অথবা HTML কোড লিখে থাকি। কিন্তু এই HTML কোডগুলোতে যদি কোন style দেওয়া না হয় তাহলে HTML ফাইলটি পরিপুর্ণতা পায় না বা আমাদের ডিজাইন মত হয় না বা যেভাবে HTML কোডগুলো লেখা হয়েছে সেভাবেই দেখাবে। কিন্তু আমরা যদি HTML ফাইলকে আমাদের ডিজাইন মত দেখাতে চাই তাহলে আমাদেরকে অবশ্যই CSS ব্যবহার করতে হবে। যার ফলে আমরা কোন ট্যাগকে ইচ্ছা মত কালার, ফন্ট সাইজ ইত্যাদি নির্ধারণ করে দিতে পারব।</p>
+                    <p>আমরা বলতে পারব যে কোন অংশটুকু কতটুকু জায়গা নিবে বা কোন দিকে এই অংশ টুকু দেখাবে ইত্যাদি কাজ করার জন্য আমরা CSS ব্যবহার করতে পারব। যেমন- মনে করুন আমরা একটি বাড়ি বানাতে চাই। তার জন্য আমাদের ইট, বালি, সিমন্টে, রড লাগবে। এই ইট, বালি, সিমেন্ট, রড ইত্যাদি হলো HTML ট্যাগ যার ফলে আমাদের বাড়ির কাঠামো তৈরী করতে পারি। কিন্তু আমরা যদি চাই বাড়ির এই দিকে এই রং হবে, দেওয়ালে একটা ছবি থাকবে, ছবির চারদিকে একটা বর্ডার থাকবে, পুরো বাড়ির একপাশ আকাশী কালারের হবে ইত্যাদি হলো CSS এর মূল কাজ।</p>
+                    <div class="img">
+                        <div class="left-img">
+                            <img src="image/before-css-1-1.png">
+                            <p> কোন CSS ছাড়া </p>
+                        </div>
+                        <div class="right-img">
+                            <img src="image/after-css-1-1.png">
+                            <p>CSS সংযুক্ত করার পর</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="css-work">
+                    <h4>CSS কত প্রকার? :</h4>
+                    <p>CSS কত প্রকার বলতে বুঝানো হচ্ছে যে অমরা কয়ভাবে CSS Code লিখতে পারব। CSS Code আমরা</p>
+                    <div class="list">
+                        <ul>
+                            <li>১। Inline CSS</li>
+                            <li>২। Internal CSS</li>
+                            <li>৩। External CSS</li>
+                        <uul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="all-css-section">
+        <div class="container">
+            <div class="main-content">
+                <h4>১। Inline CSS</h4>
+                <p>Inline CSS Code লিখার জন্য আমরা HTML ট্যাগের ভিতরে style নামের একটি এট্রিবিউট নিয়ে তার মধ্যে CSS কোড লিখে থাকি।</p>
+            </div>
+            <div class="main-content">
+                <h4>২। Internal CSS</h4>
+                <p>Internal CSS Code লিখতে হলে আমাদেরকে অবশ্যই HTML File এর head tag এর ভিতরে style নামে tag টি নিয়ে CSS Code লিখতে হবে।</p>
+            </div>
+            <div class="main-content">
+                <h4>৩। External CSS</h4>
+                <p>Inline CSS এবং Internal CSS Code যেভাবে লিখি External CSS Code ও সেভাবে লিখতে হবে তবে শুধুমাত্র পার্থক্য হলো External CSS Code লিখতে হলে আপনাকে নতুন একটি CSS File তৈরী করতে হবে। এই CSS File এর ভিতরে আপনাকে CSS Code লিখতে হবে।</p>
+            </div>
+        </div>
+    </section>
+    <!-- all-css-section end -->
+    <section class="css-man-section">
+        <div class="container">
+            <div class="main-column">
+                <div class="left-content">
+                    <h2>CSS ইতিহাস :</h2>
+                    <p>10 অক্টোবর 1994 সালে Håkon Wium Lie দ্বারা CSS প্রথম প্রস্তাব করা হয় । [২৪] একই সময়ে ওয়েবের জন্য বেশ কিছু অন্যান্য স্টাইল শীট ভাষা প্রস্তাব করা হয়েছিল, এবং পাবলিক মেইলিং তালিকা এবং ওয়ার্ল্ড ওয়াইড ওয়েব কনসোর্টিয়ামের অভ্যন্তরে আলোচনার ফলে প্রথম W3C CSS সুপারিশ (CSS1) [25] প্রকাশিত হয়েছিল 1996 সালে। বিশেষ করে , বার্ট বসের একটি প্রস্তাব প্রভাবশালী ছিল; তিনি CSS1-এর সহ-লেখক হন, এবং CSS-এর সহ-স্রষ্টা হিসেবে বিবেচিত হন। [২৬]</p>
+
+                    <p><b>1980 এর দশকে স্ট্যান্ডার্ড জেনারেলাইজড মার্কআপ ল্যাঙ্গুয়েজ ( এসজিএমএল ) </b>শুরু হওয়ার পর থেকে স্টাইল শীটগুলি এক বা অন্য আকারে বিদ্যমান ছিল এবং ওয়েবের জন্য স্টাইল শীট সরবরাহ করার জন্য CSS তৈরি করা হয়েছিল। [২৭] ওয়েব স্টাইল শীট ভাষার জন্য একটি প্রয়োজনীয়তা ছিল স্টাইল শীটগুলি ওয়েবে বিভিন্ন উত্স থেকে আসা। অতএব, DSSSL এবং FOSI এর মতো বিদ্যমান স্টাইল শীট ভাষাগুলি উপযুক্ত ছিল </p>
+                </div>
+                <div class="manimg">
+                    <img src="image/cssmanimg.jpg">
+                </div>
+            </div>
+            <div class="text">
+                <p><b>এইচটিএমএল বাড়ার সাথে সাথে এটি ওয়েব ডেভেলপারদের</b> চাহিদা মেটাতে বিভিন্ন ধরনের শৈলীগত ক্ষমতাকে অন্তর্ভুক্ত করে । এই বিবর্তনটি ডিজাইনারকে আরও জটিল HTML এর খরচে সাইটের চেহারার উপর আরো নিয়ন্ত্রণ দিয়েছে। ওয়েব ব্রাউজার বাস্তবায়নের বিভিন্নতা , যেমন ViolaWWW এবং WorldWideWeb , [28] সামঞ্জস্যপূর্ণ সাইটের উপস্থিতি কঠিন করে তোলে, এবং ব্যবহারকারীরা কীভাবে ওয়েব বিষয়বস্তু প্রদর্শিত হয় তার উপর কম নিয়ন্ত্রণ রাখেন। টিম বার্নার্স-লি দ্বারা বিকাশিত ব্রাউজার/সম্পাদকের স্টাইল শীট ছিল যা প্রোগ্রামে হার্ড-কোড করা ছিল। তাই স্টাইল শীটগুলি ওয়েবে নথিগুলির সাথে লিঙ্ক করা যায়নি৷ [২৪] CERN-এর রবার্ট ক্যালিয়াউও প্রেজেন্টেশন থেকে কাঠামোটিকে আলাদা করতে চেয়েছিলেন যাতে বিভিন্ন স্টাইল শীট মুদ্রণ, স্ক্রিন-ভিত্তিক উপস্থাপনা এবং সম্পাদকদের জন্য বিভিন্ন উপস্থাপনা বর্ণনা করতে পারে। [২৮]</p>
+            </div>
+        </div>
+    </section>
+    <!-- .html-details .html-main-deatails-content end -->
+    <section class="html-faq-question">
+        <div class="container">
+            <div class="header">
+                <h2>এখানে 20টি CSS প্রশ্ন ও উত্তর বাংলায় অনুবাদ করা হয়েছে :</h2>
+            </div>
+            <div class="main-question">
+                <div class="left-question">
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>1. CSS এর পূর্ণরূপ কি?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ স্ক্যালিং স্টাইল শিট (Cascading Style Sheets)।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>2. CSS কি?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ CSS হলো ওয়েব পেজের ডিজাইন, লেআউট এবং স্টাইলিং করার জন্য ব্যবহৃত একটি মার্কআপ ভাষা।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>3. CSS এর কোন পূর্ণরূপ হলো?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ স্ক্যালিং স্টাইল শিট।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>4. CSS এর মুল কাজ কি?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ CSS এর মুল কাজ হলো ওয়েব পেজের ডিজাইন এবং লেআউট করা।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>5. একটি HTML এলিমেন্টের স্টাইল কোন উপায়ে প্রযোজ্য করা যায়?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ HTML এলিমেন্টের স্টাইল প্রযোজ্য করার উপায় হলো CSS বা ইনলাইন স্টাইল, ইন্টারনাল স্টাইল এবং এক্সটার্নাল স্টাইল।</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-question">
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>6. স্টাইল শিট কী? </h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ স্টাইল শিট হলো একটি নথি বা ফাইল যা ওয়েব পেজের উপর ডিজাইন এবং স্টাইলিং প্রভাব ফেলে।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>7. CSS কোন ধরণের সিলেক্টর সম্পর্কে আলোচনা করে?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ বিভিন্ন ধরণের সিলেক্টর যেমন - এলিমেন্ট সিলেক্টর, ক্লাস সিলেক্টর, আইডি সিলেক্টর, ইমোজি সিলেক্টর, অ্যাট্রিবিউট সিলেক্টর, প্যাসেন্ট সিলেক্টর, সাইবিলিটি সিলেক্টর, চাইল্ড সিলেক্টর, কম্বাইনেটর সিলেক্টর ইত্যাদি।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>8. বোর্ডার সিলেক্টর কীভাবে কাজ করে?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ বোর্ডার সিলেক্টর ব্যবহার করে আপনি একটি এলিমেন্টের বর্ডার প্রপার্টিগুলি সেট করতে পারেন।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>9. কীভাবে CSS এর মাধ্যমে এলিমেন্টের স্টাইলিং করা যায়?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ আপনি এলিমেন্টের স্টাইল প্রয়োজনীয় সম্পর্কিত প্রপার্টিগুলি সেট করে স্টাইল প্রয়োগ করতে পারেন।</p>
+                        </div>
+                    </div>
+                    <div class="flex-question">
+                        <div class="htm-question">
+                            <h4>10. আমি কীভাবে এক্সটার্নাল স্টাইলিং করতে পারি?</h4>
+                            <i class="icon fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="html-answer">
+                            <p>উত্তরঃ আপনি একটি স্টাইল ফাইল তৈরি করে এবং তারপরে তাকে HTML ফাইলের link ট্যাগের মাধ্যমে সংযোজন করতে পারেন।</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="full-question">
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>11. স্টাইল শিট লাঙ্গুয়েজে প্রয়োগ করার সময় যেসব ইভেন্টগুলি ব্যবহার করা যায়, তা কি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ স্টাইল শিট লাঙ্গুয়েজে যেসব ইভেন্টগুলি ব্যবহার করা যায় তা হলো: hover, focus, active, visited, link, nth-child, nth-of-type, first-child, last-child, before, after ইত্যাদি।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>12. ফ্লেক্সবক্স কি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ ফ্লেক্সবক্স হলো একটি স্থানান্তরের মডেল যা কন্টেন্টগুলি সারানোর জন্য ব্যবহৃত হয়। এটি একটি অভ্যন্তরীণ কন্টেন্ট স্পেস থেকে বাইরের কন্টেন্টের সাথে সাথে আপডেট করে।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>13. কীভাবে গ্রিড কন্টেন্ট লেআউট তৈরি করতে পারি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ আপনি CSS গ্রিড প্রপার্টিগুলি ব্যবহার করে গ্রিড কন্টেন্ট লেআউট তৈরি করতে পারেন।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>14. পজিশনিং প্রপার্টির বিভিন্ন মান কী?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ পজিশনিং প্রপার্টির বিভিন্ন মান হলো - static, relative, absolute, fixed, sticky।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>15. জাভাস্ক্রিপ্ট ব্যবহার করে কিভাবে স্টাইল প্রোপার্টিগুলি চেঞ্জ করা যায়?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ জাভাস্ক্রিপ্ট ব্যবহার করে স্টাইল প্রোপার্টিগুলি চেঞ্জ করতে হলে, ডম এলিমেন্টের স্টাইল প্রোপার্টিগুলি এক্সেস করে এবং তার মান চেঞ্জ করতে হবে।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>16. রেস্পন্সিভ ওয়েব ডিজাইন কি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ রেস্পন্সিভ ওয়েব ডিজাইন হলো একটি ওয়েব ডিজাইনের ধারণা যা ডিভাইসের আকার, অনুমতি এবং স্ক্রিনের আকারের উপর ভিত্তি করে ওয়েব পেজের লেআউট এবং ডিজাইন সহজে সম্পর্কেত হয়।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>17. আমি কীভাবে মিডিয়া কুয়েরি ব্যবহার করতে পারি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ মিডিয়া কুয়েরি প্রপার্টিগুলি ব্যবহার করে, ডিভাইসের প্রস্তুতিতে ভিত্তি করে ওয়েব পেজের লেআউট ও ডিজাইন চেঞ্জ করা যায়।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>18. কীভাবে আমি একটি স্যাসপেন্ড মিডিয়া কুয়েরি লেখতে পারি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ আপনি স্যাসপেন্ড মিডিয়া কুয়েরি ব্যবহার করে ডিভাইসের আকার, অনুমতি এবং স্ক্রিনের আকারের উপর ভিত্তি করে ওয়েব পেজের লেআউট ও ডিজাইন চেঞ্জ করতে পারেন তবে এটি মিডিয়া সংলগ্নভাবে স্থায়ী থাকবে যখন ব্যবহারকারী পাতা স্ক্রোল করবেন।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>19. কীভাবে ইনলাইন স্টাইলিং করতে পারি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ HTML এলিমেন্টের স্টাইল সেট করতে আপনার ইনলাইন স্টাইল অ্যাট্রিবিউট ব্যবহার করতে হবে।</p>
+                    </div>
+                </div>
+                <div class="flex-question">
+                    <div class="htm-question">
+                        <h4>20. কীভাবে গ্রিড কন্টেন্ট লেআউট তৈরি করতে পারি?</h4>
+                        <i class="icon fa-solid fa-angle-down"></i>
+                    </div>
+                    <div class="html-answer">
+                        <p>উত্তরঃ আপনি CSS গ্রিড প্রপার্টিগুলি ব্যবহার করে গ্রিড কন্টেন্ট লেআউট তৈরি করতে পারেন।</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- designer-developer-section end -->
+     <!--footer top section start-->
+     <section class="footer-top-section">
+        <div class="container">
+            <div class="main-content">
+                <div class="flex-content">
+                    <h4>Links</h4>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Admission</a></li>
+                            <li><a href="#">Certification</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Job Placement</a></li>
+                            <li><a href="#">Notice</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-content">
+                    <h4>Our Faculties</h4>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">Construction</a></li>
+                            <li><a href="#">ICT</a></li>
+                            <li><a href="#">Informal</a></li>
+                            <li><a href="#">Light Engineering</a></li>
+                            <li><a href="#">RMG</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-content">
+                    <h4>About</h4>
+                    <div class="list">
+                        <ul>
+                            <li><a href="#">History</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Brand Guidelines</a></li>
+                            <li><a href="#">Terms & Condition</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex-content">
+                    <h4>Contact Info</h4>
+                    <div class="list">
+                        <li><a href="#"><i class="fa-solid fa-phone"></i>01717391532</a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i>01717391532</a></li>
+                        <li><a href="#"><i class="fa-regular fa-envelope"></i>nironjonroy532@gmail.com</a></li>
+                        <li><a href="#"><i class="fa-solid fa-location-dot"></i>mirpur-2,dhaka</a></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--footer top section end-->
+    <section class="footer-section">
+        <div class="container">
+            <div class="main-column">
+                <div class="left-content">
+                    <p>© 2003-2024 NironjonR, drn.</p>
+                </div>
+                <div class="right-content">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>  
+    <script src="js/index-css.js"></script>
+</body>
+</html>

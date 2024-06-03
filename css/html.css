@@ -1,0 +1,177 @@
+.html-banner-section{
+    margin-top: 60px;
+    padding-top: 80px;
+    padding-bottom: 150px;
+    background: #8080807a;
+}
+.html-banner-section .html-main-column{
+    width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.html-banner-section .header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.html-banner-section .header h1{
+    color: 	rgb(255, 0, 0);
+}
+.html-banner-section .header b{
+    color: #333;
+    font-size: 26px;
+}
+.html-banner-section .header span{
+    display: inline-block;
+    font-size: 22px;
+    color: rgb(64, 0, 255);
+}
+.html-banner-section .html-main-column .html-content{
+    text-align: center;
+}
+.html-banner-section .html-main-column .html-content h1{
+    color: rgb(0, 0, 255);
+}
+.html-banner-section .html-main-column .html-content p{
+    color: #333;
+}
+.html-banner-section .html-main-column .html-content .btn{
+    margin-top: 20px;
+}
+
+.html-banner-section .html-main-column .html-content .btn a{
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px 30px;
+    background: #000;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: aqua;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: .4s ease;
+    box-shadow: 0px 0px 5px #000;
+}
+.html-banner-section .html-main-column .html-content .btn a:hover{
+    background: #333;
+    box-shadow: 0px 0px 5px gray;
+}
+.html-banner-section .html-main-column .html-stucture img{
+    width: 100%;
+    box-shadow: 0px 0px 10px gray;
+}
+/* html-banner-section  end */
+.html-details{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.html-details .main-details{
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    column-gap: 30px;
+}
+.html-details .main-details .main-content .h2{
+    margin-bottom: 15px;
+}
+.html-details .main-details .main-content .pra2{
+    margin-top: 10px;
+}
+.html-details .main-details .img img{
+    width: 100%;
+}
+.html-details .html-main-deatails-content h4{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #333;
+    margin: 10px 0px 5px 0px;
+}
+.html-details .html-main-deatails-content .html-work{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.html-details .html-main-deatails-content .html-work .main-html-work{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    column-gap: 30px;
+    margin-top: 20px;
+}
+.html-details .html-main-deatails-content .html-work .main-html-work .html-image img{
+    width: 100%;
+}
+.html-details .html-main-deatails-content .html-work .main-html-work .main-html-work-content .pra2{
+    margin-top: 20px;
+}
+.html-details .html-main-deatails-content .html-work .table{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.html-details .html-main-deatails-content .html-work .table table, th, td{
+    border: 1px solid #333;
+    width: 100%;
+    padding: 10px 30px;
+    border-collapse: collapse;
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+}
+/* .html-details .html-main-deatails-content end */
+.html-faq-question{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.html-faq-question .main-question{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    column-gap: 30px;
+    margin-top: 40px;
+}
+.html-faq-question .htm-question{
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+}
+.html-faq-question .htm-question h4{
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: 	rgba(19, 26, 210, 0.69);
+}
+.html-faq-question .html-answer{
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.html-faq-question .icon{
+    font-size: 16px;
+    color: 	rgba(19, 26, 210, 0.69);
+    transition: 0.2s ease;
+}
+.html-faq-question .icon.active{
+    transform: rotate(-180deg);
+}
+.html-faq-question .main-question .flex-question{
+    background: gainsboro;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.html-faq-question .main-question p{
+    text-transform: none;
+}
+.html-faq-question .full-question{
+    margin-top: 20px;
+}
+.html-faq-question .full-question .flex-question{
+    background: gainsboro;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

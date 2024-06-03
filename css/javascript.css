@@ -1,0 +1,51 @@
+.js-work{
+    margin-top: 10px;
+}
+/* js output section start */
+/* .js-output-section{
+
+} */
+.js-output-section .main-column h2{
+    margin-bottom: 10px;
+}
+.js-output-section .main-column p{
+    margin-bottom: 6px;
+}
+.js-output-section .main-column .list li{
+    margin-left: 16px;
+    color: #333;
+    line-height: 30px;
+}
+/* js output section end */
+.js-all-details-section{
+    padding-bottom: 80px;
+}
+.js-all-details-section h2{
+    margin-bottom: 10px;
+}
+.js-all-details-section h4{
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #000;
+    font-weight: 500;
+}
+.js-all-details-section p{
+    margin-bottom: 8px;
+}
+.js-all-details-section li{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    line-height: 30px;
+}
+.js-all-details-section ul,ol{
+    margin-bottom: 10px;
+}
+.js-all-details-section .js-loop{
+    margin-top: 20px;
+}
+.js-all-details-section b{
+    margin-right: 5px;
+}

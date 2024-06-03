@@ -1,0 +1,59 @@
+.css-main-deatails-content h4{
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.css-main-deatails-content .img{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    column-gap: 40px;
+    margin: 10px 0px;
+}
+.css-main-deatails-content .img img{
+    width: 100%;
+    height: auto;
+}
+.css-main-deatails-content .list{
+    margin-top: 10px;
+}
+.css-main-deatails-content .list li{
+    list-style: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #333;
+}
+/* .css-main-deatails-content end */
+.all-css-section{
+    padding-bottom: 80px;
+}
+.all-css-section  .main-content{
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 20px;
+}
+.all-css-section  .main-content h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333;
+    margin-bottom: 5px;
+}
+/* all-css-section end */
+.css-man-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.css-man-section .main-column{
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    column-gap: 30px;
+}
+.css-man-section .main-column .manimg img{
+    width: 100%;
+}
+.css-man-section .text{
+    margin-top: 10px;
+}

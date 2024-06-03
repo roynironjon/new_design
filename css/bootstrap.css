@@ -1,0 +1,53 @@
+.bootstra-use-section{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.bootstra-use-section .main-content h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #333;
+    margin-bottom: 10px;
+}
+.bootstra-use-section .main-content .pra2{
+    margin: 10px 0px;
+}
+.bootstra-use-section .main-content .pra3{
+    color: red;
+}
+/* bootstra-use-section end */
+.bootstrap-details-section{
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.bootstrap-details-section .main-column{
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    column-gap: 40px;
+}
+.bootstrap-details-section .main-column .img img{
+    width: 100%;
+}
+.bootstrap-details-section .main-column .content{
+    border: 2px solid gray;
+    padding: 10px 20px;
+}
+.bootstrap-details-section .main-column .content h2{
+    margin: 10px 0px;
+}
+.bootstrap-details-section .use-content{
+    margin-top: 40px;
+}
+.bootstrap-details-section .use-content h2{
+    margin-bottom: 10px;
+}
+.bootstrap-details-section .use-content ul li{
+    line-height: 30px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.bootstrap-details-section .use-content ul li a{
+    color: #333;
+    text-decoration: underline;
+    margin-right: 5px;
+}
+/* bootstrap-details-section */
