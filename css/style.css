@@ -120,20 +120,21 @@ h2{
 .banner-section .main-column .content .btn a{
     display: inline-block;
     padding: 10px 30px;
-    background: #007bff;
+    background: transparent;
     font-size: 16px;
     text-transform: capitalize;
-    color: #fff;
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40px;
+    color: #333;
     margin-top: 10px;
     cursor: pointer;
-    box-shadow: 0px 0px 10px #007bff;
+    box-shadow: 0px 0px 10px #117F6E;
     transition: .4s ease-in-out;
+    border-radius: 10px;
+    border: 2px solid #117F6E;
 }
 .banner-section .main-column .content .btn a:hover{
-    background: red;
-    box-shadow: 0px 0px 10px red;
+    background: #117F6E;
+    box-shadow: 0px 0px 10px #117F6E;
+    color: #fff;
 }
 /* banner design section end */
 #scrollBtn {
@@ -174,21 +175,23 @@ h2{
     margin-right: 10px;
 }
 .design-section .main-column .design-content a{
-    margin-top: 20px;
     display: inline-block;
-    padding: 10px 20px;
-    background: #007bff;
-    color: #fff;
+    padding: 10px 30px;
+    background: transparent;
+    font-size: 16px;
     text-transform: capitalize;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    color: #333;
+    margin-top: 10px;
     cursor: pointer;
-    transition: .4s ease;
-    box-shadow: 0px 0px 10px #007bff;
+    box-shadow: 0px 0px 10px #117F6E;
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+    border: 2px solid #117F6E;
 }
 .design-section .main-column .design-content a:hover{
-    background: red;
-    box-shadow: 0px 0px 10px red;
+    background: #117F6E;
+    box-shadow: 0px 0px 10px #117F6E;
+    color: #fff;
 }
 .design-section .main-column .img .ani-img{
     position: relative;
@@ -232,21 +235,23 @@ h2{
     margin-right: 10px;
 }
 .development-section .main-column .development-content a{
-    margin-top: 20px;
     display: inline-block;
-    padding: 10px 20px;
-    background: #007bff;
-    color: #fff;
+    padding: 10px 30px;
+    background: transparent;
+    font-size: 16px;
     text-transform: capitalize;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    color: #333;
+    margin-top: 10px;
     cursor: pointer;
-    transition: .4s ease;
-    box-shadow: 0px 0px 10px #007bff;
+    box-shadow: 0px 0px 10px #117F6E;
+    transition: .4s ease-in-out;
+    border-radius: 10px;
+    border: 2px solid #117F6E;
 }
 .development-section .main-column .development-content a:hover{
-    background: red;
-    box-shadow: 0px 0px 10px red;
+    background: #117F6E;
+    box-shadow: 0px 0px 10px #117F6E;
+    color: #fff;
 }
 .development-section .main-column .img .ani-img{
     position: relative;
