@@ -463,6 +463,8 @@ h2{
     text-transform: capitalize;
     font-weight: 600;
     margin-bottom: 15px;
+    color: #fff;
+    text-decoration: underline;
 }
 .footer-top-section .main-content .flex-content .list li{
     list-style: none;
