@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1200px) {
+    .menubar .main-column .logo-column {
+        width: 15%;
+        margin-right: 2%;
+    }
+    .menubar .main-column .menu-column {
+        width: 83%;
+    }
+}
+@media only screen and (max-width: 1024px) {}
+@media only screen and (max-width: 989px) {}
+@media only screen and (max-width: 800px) {}
+@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {}
